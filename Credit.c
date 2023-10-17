@@ -50,7 +50,7 @@ bool isvalid(char numbercc[])
 
     long soma = 0;
 
-    for (int i = 0; i < strlen(numbercc); i++)
+    for (int i = 0, n = strlen(numbercc); i < n; i++)
     {
         int digito = numbercc[i] - '0';  // Converts the character to an integer digit.
 
